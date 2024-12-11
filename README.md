@@ -5,7 +5,7 @@ You are tasked with creating an endpoint in Node.js using TypeScript that proces
 - `users.json` (contains users balances)
 - `batch_user_cost.json` (contains request for batch processing with User ids and costs)
 
-Your objective is to create an API that can handle these batch request, check balances and update them accordingly.
+Your objective is to create a test API Endpoint that can handle these batch request, check balances and update them accordingly.
 
 These are the lists of users that has been updated after you've implemented the solution.
 
@@ -44,3 +44,8 @@ GET /batch-processing
 - Node.js with TypeScript.
 - Adherence to SOLID principles for clean and maintainable code.
 - Implement a batch processing API that updates user balances based on requests in two provided JSON files.
+
+
+## Additional Questions
+1. What is the complexity of your algorithm (in Big O notation).
+2. How would you improve your algorithm?
