@@ -1,7 +1,9 @@
-# Coding Challenge: Batch Processing with User Balance deduction.
+# Coding Challenge Test: Batch Processing with User Balance deduction.
 
 ## Overview
+
 You are tasked with creating an endpoint in Node.js using TypeScript that processes requests in batches. The system will simulate deducting costs from user balances based on incoming requests. You will be provided with two files:
+
 - `users.json` (contains users balances)
 - `batch_user_cost.json` (contains request for batch processing with User ids and costs)
 
@@ -10,11 +12,11 @@ Your objective is to create a test API Endpoint that can handle these batch requ
 These are the lists of users that has been updated after you've implemented the solution.
 
 ### Example Endpoint:
-``
-GET localhost:3000/batch-processing
-``
+
+`GET localhost:3000/batch-processing`
 
 ### Expected Result:
+
 ```json
 {
   1: 504.0500000000001,
@@ -41,11 +43,12 @@ GET localhost:3000/batch-processing
 ```
 
 ## Requirements
+
 - Node.js with TypeScript.
 - Adherence to SOLID principles for clean and maintainable code.
 - Implement a batch processing API that updates user balances based on requests in two provided JSON files.
 
-
 ## Additional Questions
+
 1. What is the complexity of your algorithm (in Big O notation).
 2. How would you improve your algorithm?
