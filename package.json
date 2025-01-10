@@ -1,5 +1,5 @@
 {
-    "name": "ts-node-dev-to-tsc",
+    "name": "cs-coding-challenge",
     "version": "1.0.0",
     "scripts": {
         "build": "tsc",
