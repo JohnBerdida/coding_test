@@ -11,7 +11,7 @@ These are the lists of users that has been updated after you've implemented the 
 
 ### Example Endpoint:
 ``
-GET /batch-processing
+GET localhost:3000/batch-processing
 ``
 
 ### Expected Result:
